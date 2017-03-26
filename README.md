@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/gulp-uncss.png?downloads=true)](https://www.npmjs.com/package/gulp-uncss)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp_uncss_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-uncss_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build..beta..travis-ci.org/apidoc.html)
 
 ![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screen-capture.npmPackageListing.svg)
 
