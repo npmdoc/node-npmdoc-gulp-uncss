@@ -1,11 +1,13 @@
-# api documentation for  [gulp-uncss (v1.0.6)](https://github.com/ben-eb/gulp-uncss)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uncss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uncss)
+# api documentation for  [gulp-uncss (v1.0.6)](https://github.com/ben-eb/gulp-uncss)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uncss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uncss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uncss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uncss)
 #### Remove unused CSS selectors.
 
 [![NPM](https://nodei.co/npm/gulp-uncss.png?downloads=true)](https://www.npmjs.com/package/gulp-uncss)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp_uncss_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-gulp-uncss%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
