@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/ben-eb/gulp-uncss"
-
-    >gulp-uncss (v1.0.6)</a>
+    <a href="https://github.com/ben-eb/gulp-uncss">gulp-uncss (v1.0.6)</a>
 </h1>
 <h4>Remove unused CSS selectors.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-uncss">module gulp-uncss</a><ol>
 
@@ -93,12 +86,12 @@
 
     stream._transform = function (file, encoding, cb) {
         if (file.isStream()) {
-            var error = &#x27;Streaming not supported&#x27;;
+            var error = 'Streaming not supported';
             return cb(new gutil.PluginError(PLUGIN_NAME, error));
         } else if (file.isBuffer()) {
             var contents = String(file.contents);
             if (!contents.length) {
-                // Don&#x27;t crash on empty files
+                // Don't crash on empty files
                 return cb(null, file);
             }
             options = assign(options, {raw: contents});
@@ -129,3 +122,4 @@
     ]
 </div>
 </div>
+</body></html>

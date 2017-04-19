@@ -61,12 +61,65 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-uncss">module gulp-uncss</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-uncss.gulp-uncss">
+            function <span class="apidocSignatureSpan"></span>gulp-uncss
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-uncss" id="apidoc.module.gulp-uncss">module gulp-uncss</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-uncss.gulp-uncss" id="apidoc.element.gulp-uncss.gulp-uncss">
+        function <span class="apidocSignatureSpan"></span>gulp-uncss
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-uncss = function (options) {
+    var stream = new transform({objectMode: true});
+
+    // Ignore stylesheets in the HTML files; only use those from the stream
+    options.ignoreSheets = [/\s*/];
+
+    stream._transform = function (file, encoding, cb) {
+        if (file.isStream()) {
+            var error = &#x27;Streaming not supported&#x27;;
+            return cb(new gutil.PluginError(PLUGIN_NAME, error));
+        } else if (file.isBuffer()) {
+            var contents = String(file.contents);
+            if (!contents.length) {
+                // Don&#x27;t crash on empty files
+                return cb(null, file);
+            }
+            options = assign(options, {raw: contents});
+            uncss(options.html, options, function (err, output) {
+                if (err) {
+                    return cb(new gutil.PluginError(PLUGIN_NAME, err));
+                }
+                file.contents = new Buffer(output);
+                cb(null, file);
+            });
+        } else {
+            // Pass through when null
+            cb(null, file);
+        }
+    };
+
+    return stream;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
