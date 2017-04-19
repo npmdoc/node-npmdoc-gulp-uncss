@@ -1,9 +1,14 @@
-# api documentation for  [gulp-uncss (v1.0.6)](https://github.com/ben-eb/gulp-uncss)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uncss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uncss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uncss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uncss)
+# npmdoc-gulp-uncss
+
+#### api documentation for  [gulp-uncss (v1.0.6)](https://github.com/ben-eb/gulp-uncss)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-uncss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-uncss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-uncss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-uncss)
+
 #### Remove unused CSS selectors.
 
-[![NPM](https://nodei.co/npm/gulp-uncss.png?downloads=true)](https://www.npmjs.com/package/gulp-uncss)
+[![NPM](https://nodei.co/npm/gulp-uncss.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-uncss)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-uncss%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-uncss/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Ben Briggs",
-        "email": "beneb.info@gmail.com",
         "url": "http://beneb.info"
     },
     "bugs": {
@@ -50,13 +54,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "beneb",
-            "email": "therealbenbriggs@hotmail.com"
+            "name": "beneb"
         }
     ],
     "name": "gulp-uncss",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ben-eb/gulp-uncss.git"
@@ -67,16 +69,6 @@
     "version": "1.0.6"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-uncss](#apidoc.module.gulp-uncss)
-
-
-
-# <a name="apidoc.module.gulp-uncss"></a>[module gulp-uncss](#apidoc.module.gulp-uncss)
 
 
 
